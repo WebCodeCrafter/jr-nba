@@ -1,0 +1,26 @@
+/**
+ * An array of public routes
+ * These routes are accessible to everyone
+ * @type {string[]}
+ */
+export const publicRoutes: string[] = [
+  "/login",
+  "/change-password",
+  "/forget-password",
+  "/register",
+  "/not-found",
+];
+
+/**
+ * An array of api auth routes
+ * These routes are used for authentication
+ * @type {string[]}
+ */
+export const apiAuthPrefix: string = "/api/auth";
+
+/**
+ * An array of api auth routes
+ * These routes are used for authentication
+ * @type {string}
+ */
+export const defaultLoginRedirect: string = "/dashboard/admin";
